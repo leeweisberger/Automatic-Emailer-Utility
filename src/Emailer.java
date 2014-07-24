@@ -41,10 +41,5 @@ public class Emailer {
             mex.printStackTrace();
         }
     }
-
-    public static void main(String[] args) {
-        Emailer.sendEmail("lweisberger5@gmail.com", "em@!lem@!l",
-                "lweisberger5@gmail.com", "This is the subject",
-                "This is the body");
-    }
+    
 }
